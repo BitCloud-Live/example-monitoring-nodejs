@@ -3,7 +3,7 @@
 ## Goal
 
 Setup monitoring with [Prometheus](https://prometheus.io) and [Grafana](https://grafana.com).
-
+This NodeJS application exports metrics over 0.0.0.0:9110/metrics
 ## Steps
 
 1. Build project using provided Dockerfile
