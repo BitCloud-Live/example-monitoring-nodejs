@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hhio618/example-prometheus-nodejs.svg?branch=master)](https://travis-ci.org/hhio618/example-prometheus-nodejs)
+[![Build Status](https://travis-ci.org/yottab/example-monitoring-nodejs.svg?branch=master)](https://travis-ci.org/yottab/example-monitoring-nodejs)
 # Example Monitoring NodeJS
 
 ## Goal
@@ -10,7 +10,7 @@ This NodeJS application exports metrics over 0.0.0.0:9110/metrics
 1. Build project using provided Dockerfile
 2. Use docker image for adding a worker to some yottab application or use prebuilt image:
 ```sh
-yb create worker application <app-name> -n nodejs-monitoring -i hub.yottab.io/library/example-monitoring-nodejs:latest -p 9110
+yb create worker <app-name> -n nodejs-monitoring -i hub.yottab.io/library/example-monitoring-nodejs:latest -p 9110
 ```
 3. Import `grafana-dashboard.json` dashboard into your team `YOTTAb grafana dashboard`
 
