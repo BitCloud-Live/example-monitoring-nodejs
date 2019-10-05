@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/hhio618/example-prometheus-nodejs.svg?branch=master)](https://travis-ci.org/hhio618/example-prometheus-nodejs)
 # Example Monitoring NodeJS
 
 ## Goal
